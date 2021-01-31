@@ -41,7 +41,7 @@ U 1 1 6016A656
 P 3050 2400
 F 0 "CN6" H 3200 2350 50  0000 C CNN
 F 1 "Conn_01x08" H 3130 2301 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 3050 2400 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 3050 2400 50  0001 C CNN
 F 3 "~" H 3050 2400 50  0001 C CNN
 	1    3050 2400
 	-1   0    0    -1  
@@ -52,7 +52,7 @@ U 1 1 6016D7A0
 P 3050 1450
 F 0 "CN4" H 3200 1400 50  0000 C CNN
 F 1 "Conn_01x10" H 3130 1351 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 3050 1450 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical" H 3050 1450 50  0001 C CNN
 F 3 "~" H 3050 1450 50  0001 C CNN
 	1    3050 1450
 	-1   0    0    -1  
@@ -119,7 +119,7 @@ U 1 1 6016C78B
 P 2200 2550
 F 0 "CN5" H 2280 2496 50  0000 L CNN
 F 1 "Conn_01x06" H 2280 2451 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2200 2550 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 2200 2550 50  0001 C CNN
 F 3 "~" H 2200 2550 50  0001 C CNN
 	1    2200 2550
 	1    0    0    -1  
@@ -130,7 +130,7 @@ U 1 1 601699C4
 P 2200 1750
 F 0 "CN3" H 2280 1696 50  0000 L CNN
 F 1 "Conn_01x08" H 2280 1651 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 2200 1750 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 2200 1750 50  0001 C CNN
 F 3 "~" H 2200 1750 50  0001 C CNN
 	1    2200 1750
 	1    0    0    -1  
@@ -1180,6 +1180,8 @@ Text Label 3450 3100 2    50   ~ 0
 GND
 Wire Wire Line
 	3250 3000 3450 3000
+Text Label 3450 3000 2    50   ~ 0
+GND
 Wire Bus Line
 	1700 3250 1700 5300
 Wire Bus Line
@@ -1192,6 +1194,4 @@ Wire Bus Line
 	1700 1150 1700 3250
 Wire Bus Line
 	3550 1100 3550 3250
-Text Label 3450 3000 2    50   ~ 0
-GND
 $EndSCHEMATC
